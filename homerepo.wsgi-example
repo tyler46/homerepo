@@ -1,0 +1,13 @@
+import os
+import site
+import sys
+
+sys.path.append('/path/of/project')
+site.addsitedir('/path/to/virtualenv/site-packages')
+
+os.environ['DJANGO_SETTINGS_MODULE'] = 'project-name.settings'
+
+import django.core.handlers.wsgi
+application = django.core.handlers.wsgi.WSGIHandler()
+
+
