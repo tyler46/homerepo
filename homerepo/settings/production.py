@@ -1,3 +1,4 @@
+import os
 # Normally you should not import ANYTHING from Django directly
 # into our settings, but ImproperlyConfigured is an exception.
 from django.core.exceptions import ImproperlyConfigured
