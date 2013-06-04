@@ -1,5 +1,9 @@
 *.py[cod]
 
+# local settings.
+homerepo/settings/local.py
+
+fabfile.py
 # C extensions
 *.so
 
@@ -29,7 +33,3 @@ nosetests.xml
 # Translations
 *.mo
 
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject

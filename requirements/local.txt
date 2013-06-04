@@ -1,0 +1,4 @@
+-r base.txt  # include the base.txt requirements file
+
+pep8
+django-debug-toolbar==0.9.4
