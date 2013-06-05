@@ -3,7 +3,6 @@
 # local settings.
 homerepo/settings/local.py
 
-fabfile.py
 # C extensions
 *.so
 
